@@ -1,0 +1,14 @@
+<snippet>
+  <content>
+<![CDATA[constructor(props) {
+	super(props);
+
+	this.state = {
+		${1}
+	};
+}]]>
+  </content>
+  <tabTrigger>constructor()</tabTrigger>
+  <scope>source.js,source.jsx,source.css</scope>
+  <description>constructor()</description>
+</snippet>

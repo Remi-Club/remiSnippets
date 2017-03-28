@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+<![CDATA[componentWillReceiveProps(nextProps) {
+	${1}
+}]]>
+
+</content>
+  <tabTrigger>cwrp</tabTrigger>
+  <scope>source.js,source.jsx,source.css</scope>
+  <description>componentWillReceiveProps(object nextProps)</description>
+</snippet>

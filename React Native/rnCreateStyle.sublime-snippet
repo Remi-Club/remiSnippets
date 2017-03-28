@@ -20,6 +20,6 @@ export default style;
   <tabTrigger>rncs</tabTrigger>
   <!-- the abbreviation is hilariously `css` -->
   <!-- actually stands for create style sheet -->
-  <scope>source.js,source.jsx</scope>
+  <scope>source.js,source.jsx,source.css</scope>
   <description>Create StyleSheet</description>
 </snippet>

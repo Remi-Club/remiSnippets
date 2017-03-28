@@ -1,0 +1,17 @@
+<snippet>
+  <content>
+<![CDATA[
+this.props.${1:functionName} ({
+    data: ${2:data},
+    before:() => {$3},
+    after:() => {$4},
+    success:(result) => {$5},
+    fail:(err) => {$0}
+})
+
+]]>
+  </content>
+  <tabTrigger>this.props.request</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>request function</description>
+</snippet>
