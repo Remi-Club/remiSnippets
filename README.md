@@ -87,8 +87,48 @@
         <td>TouchableOpacity ...</td>
         <td>touchableOpacity</td>
     </tr>
+    </tr>
+        <td>View ...</td>
+        <td>view</td>
+    </tr>
+    </tr>
+        <td>Text ...</td>
+        <td>text</td>
+    </tr>
+
 
 </table>
 
 
 ### 编辑:
+
+**基本函数放在basic文件夹, 组件放在components文件夹**
+**注意创建的代码段文件要以.sublime-snippet结尾**
+
+<code>
+
+<snippet>
+  <content><![CDATA[
+    <TextInput
+        style={style.${1:formItem}}
+        value={this.state.${2:inputValue}}
+        placeholder={${3:placeholder}}
+        clearButtonMode={'while-editing'}
+        keyboardType={${4:}}
+        underlineColorAndroid={'transparent'}
+        onChangeText={($2) => {
+            this.setState({$2})
+        }}
+    />
+    ]]>
+  </content>
+  <tabTrigger>textinput</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>react-native TextInput</description>
+</snippet>
+
+
+</code>
+
+
+
