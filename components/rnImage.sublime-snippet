@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<Image style={style.${1:imageStyle}} source={require('../../img/${0:imageName}.png')}/>
+    ]]>
+  </content>
+  <tabTrigger>image</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>react-native Image</description>
+</snippet>

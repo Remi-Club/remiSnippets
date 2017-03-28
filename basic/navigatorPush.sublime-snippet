@@ -6,7 +6,7 @@ this.props.navigator.push({
         $2
     }
 })
-    ]]>
+]]>
 
   </content>
   <tabTrigger>push</tabTrigger>

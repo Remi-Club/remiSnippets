@@ -41,10 +41,10 @@
         <td>cwud</td>
     </tr>
     <tr>
-        <td>construct()</td>
+        <td>construct(...)</td>
         <td>construct</td>
     </tr>
-        <td>this.setState()</td>
+        <td>this.setState(...)</td>
         <td>setState</td>
     </tr>
     </tr>
@@ -65,12 +65,30 @@
     </tr>
     </tr>
         <td>this.props.${functionName} ({...})</td>
-        <td>this.props.reuest</td>
+        <td>this.props.request</td>
+    </tr>
+    </tr>
+        <td>TextInput ...</td>
+        <td>textinput</td>
+    </tr>
+    </tr>
+        <td>Modal ...</td>
+        <td>modal</td>
+    </tr>
+    </tr>
+        <td>Navbar ...</td>
+        <td>navbar</td>
+    </tr>
+    </tr>
+        <td>Image ...</td>
+        <td>image</td>
+    </tr>
+    </tr>
+        <td>TouchableOpacity ...</td>
+        <td>touchableOpacity</td>
     </tr>
 
-
 </table>
-
 
 
 ### 编辑:

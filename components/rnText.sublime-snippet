@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<Text style={style.$1}>{'$0'}</Text>
+    ]]>
+  </content>
+  <tabTrigger>text</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>react-native Text</description>
+</snippet>

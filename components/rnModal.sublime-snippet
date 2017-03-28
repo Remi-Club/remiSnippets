@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<Modal
+    animationType={"fade"}
+    transparent={true}
+    visible={this.state.${1:isModalVisible}}
+    onRequestClose={() => ${3:{console.log('@@@onRequestClose');}}}>
+    <View style={style.${2:modalBox}}>
+        $0
+    </View>
+</Modal>
+    ]]>
+  </content>
+  <tabTrigger>modal</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>react-native modal</description>
+</snippet>
