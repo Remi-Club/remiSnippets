@@ -95,8 +95,6 @@
         <td>Text ...</td>
         <td>text</td>
     </tr>
-
-
 </table>
 
 
@@ -106,20 +104,24 @@
 - 注意创建的代码段文件要以.sublime-snippet结尾
 
 
+#### 示例
+
 ```
 <snippet>
   <content><![CDATA[
-    <TextInput
-        style={style.${1:formItem}}
-        value={this.state.${2:inputValue}}
-        placeholder={${3:placeholder}}
-        clearButtonMode={'while-editing'}
-        keyboardType={${4:}}
-        underlineColorAndroid={'transparent'}
-        onChangeText={($2) => {
-            this.setState({$2})
-        }}
-    />
+
+<TextInput
+    style={style.${1:formItem}}
+    value={this.state.${2:inputValue}}
+    placeholder={${3:placeholder}}
+    clearButtonMode={'while-editing'}
+    keyboardType={${4:}}
+    underlineColorAndroid={'transparent'}
+    onChangeText={($2) => {
+        this.setState({$2})
+    }}
+/>
+
     ]]>
   </content>
   <tabTrigger>textinput</tabTrigger>
