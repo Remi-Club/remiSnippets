@@ -1,0 +1,40 @@
+<snippet>
+  <content>
+    <![CDATA[
+import React, {
+    Component
+} from 'react';
+import {
+  View,
+  TouchableOpacity,
+} from 'react-native';
+import Navbar from 'buss/Navbar';
+import Text from 'buss/Text';
+import style from './style';
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:Index}} extends Component {
+
+    goBack() {
+        this.props.navigator.pop()
+    }
+
+    render() {
+        return (
+            <View style={style.box}>
+                <Navbar title={'${2:title}'} onBackButtonPress={() => this.goBack} />
+                <View style={style.wrapper}>
+
+
+                </View>
+            </View>
+        );
+    }
+}
+
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:Index}};
+]]>
+  </content>
+  <tabTrigger>rncc</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create react-native Class</description>
+</snippet>
