@@ -102,11 +102,11 @@
 
 ### 编辑:
 
-**基本函数放在basic文件夹, 组件放在components文件夹**
-**注意创建的代码段文件要以.sublime-snippet结尾**
+- 基本函数放在basic文件夹, 组件放在components文件夹
+- 注意创建的代码段文件要以.sublime-snippet结尾
 
-<code>
 
+```
 <snippet>
   <content><![CDATA[
     <TextInput
@@ -127,8 +127,7 @@
   <description>react-native TextInput</description>
 </snippet>
 
-
-</code>
+```
 
 
 
