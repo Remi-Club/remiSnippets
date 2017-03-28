@@ -64,14 +64,7 @@
         <td>push</td>
     </tr>
     </tr>
-        <td>this.props.functionName ({
-    data: data,
-    before:() => {},
-    after:() => {},
-    success:(result) => {},
-    fail:(err) => {}
-})
-</td>
+        <td>this.props.${functionName} ({...})</td>
         <td>this.props.reuest</td>
     </tr>
 
