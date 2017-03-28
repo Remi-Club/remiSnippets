@@ -3,7 +3,7 @@
 **sublime代码段工具**
 
 ### Install:
-#### cd /Users/$(yourName)/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+#### cd /Users/$(yourName)/Library/Application\ Support/Sublime\ Text\ 3/Packages
 #### git clone https://github.com/Remi-Club/remiSnippets.git
 
 ## Snippets
