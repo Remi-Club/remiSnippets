@@ -1,20 +1,18 @@
 <snippet>
   <content>
-    <![CDATA[
+<![CDATA[
 import React, {
     Component
 } from 'react';
 import {
-  View,
-  TouchableOpacity,
+    View
 } from 'react-native';
-import Navbar from 'buss/Navbar';
-import Text from 'buss/Text';
 import style from './style';
+import Navbar from 'buss/Navbar';
 
 class ${1:Index} extends Component {
     goBack() {
-        this.props.navigator.pop()
+        this.props.navigator.pop();
     }
     render() {
         return (
@@ -22,7 +20,6 @@ class ${1:Index} extends Component {
                 <Navbar title={'${2:title}'} onBackButtonPress={() => this.goBack} />
                 <View style={style.wrapper}>
                     $0
-
                 </View>
             </View>
         );
@@ -30,9 +27,10 @@ class ${1:Index} extends Component {
 }
 
 export default ${1:Index};
+
 ]]>
   </content>
   <tabTrigger>rncc</tabTrigger>
   <scope>source.js,source.jsx,source.css</scope>
-  <description>Create react-native Class</description>
+  <description>Remi Create react-native Class</description>
 </snippet>

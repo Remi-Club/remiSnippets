@@ -1,5 +1,6 @@
 <snippet>
-  <content><![CDATA[
+  <content>
+<![CDATA[
 import {
     StyleSheet
 } from 'react-native';
@@ -8,15 +9,16 @@ const style = StyleSheet.create({
     box: {
         flex: 1,
         backgroundColor: '#f6f6f6',
-
     },
     wrapper: {
-        ${1}:${2},
+        ${1:}
     }
 });
 
 export default style;
-]]></content>
+
+]]>
+  </content>
   <tabTrigger>rncs</tabTrigger>
   <!-- the abbreviation is hilariously `css` -->
   <!-- actually stands for create style sheet -->
