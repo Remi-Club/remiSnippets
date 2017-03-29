@@ -5,7 +5,7 @@
     value={this.state.${2:inputValue}}
     placeholder={${3:placeholder}}
     clearButtonMode={'while-editing'}
-    keyboardType={${4:}}
+    keyboardType={${4:'default'}}
     underlineColorAndroid={'transparent'}
     onChangeText={($2) => {
         this.setState({$2})

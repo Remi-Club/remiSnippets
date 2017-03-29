@@ -1,6 +1,7 @@
 <snippet>
   <content><![CDATA[
-<Navbar title={'${1:标题}'} onBackButtonPress={() => ${0}} />
+<Navbar title={'${1:标题}'} onBackButtonPress={() => ${2}} />
+$0
     ]]>
   </content>
   <tabTrigger>navbar</tabTrigger>

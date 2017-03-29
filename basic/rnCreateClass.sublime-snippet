@@ -12,18 +12,16 @@ import Navbar from 'buss/Navbar';
 import Text from 'buss/Text';
 import style from './style';
 
-class ${1:${TM_FILENAME/(.+)\..+|.*/$1/}} extends Component {
-
+class ${1:Index} extends Component {
     goBack() {
         this.props.navigator.pop()
     }
-
     render() {
         return (
             <View style={style.box}>
-                <Navbar title={'${2:title}'} onBackButtonPress={() => this.goBack} />
+               <Navbar title={'${2:title}'} onBackButtonPress={() => this.goBack} />
                 <View style={style.wrapper}>
-
+                    $0
 
                 </View>
             </View>
@@ -31,7 +29,7 @@ class ${1:${TM_FILENAME/(.+)\..+|.*/$1/}} extends Component {
     }
 }
 
-export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/}};
+export default ${1:Index};
 ]]>
   </content>
   <tabTrigger>rncc</tabTrigger>
