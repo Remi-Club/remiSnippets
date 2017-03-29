@@ -164,7 +164,7 @@ export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/}};
 
 
 > 参考文档: [sublime Unofficial document](http://docs.sublimetext.info/en/latest/extensibility/snippets.html) <br>
-> 
+> 推荐资料: https://webdevstudios.com/2016/08/16/snippets-saved-life-how-sublime-text-3-snippets-changed-everything/
 
 
 

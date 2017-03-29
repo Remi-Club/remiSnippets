@@ -19,7 +19,7 @@ class ${1:Index} extends Component {
     render() {
         return (
             <View style={style.box}>
-               <Navbar title={'${2:title}'} onBackButtonPress={() => this.goBack} />
+                <Navbar title={'${2:title}'} onBackButtonPress={() => this.goBack} />
                 <View style={style.wrapper}>
                     $0
 
