@@ -163,6 +163,9 @@ export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/}};
 
 
 
+> 参考文档: [sublime Unofficial document](http://docs.sublimetext.info/en/latest/extensibility/snippets.html) <br>
+> 
+
 
 
 
