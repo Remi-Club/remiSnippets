@@ -47,53 +47,65 @@
         <td>this.setState(...)</td>
         <td>setState</td>
     </tr>
-    </tr>
+    <tr>
         <td>alignItems:'center'</td>
         <td>alignItems</td>
     </tr>
-    </tr>
+    <tr>
         <td>justifyContent:'center'</td>
         <td>justifyContent</td>
     </tr>
-    </tr>
+    <tr>
         <td>flexDirection:'row'</td>
         <td>flexDirection</td>
     </tr>
-    </tr>
-        <td>this.props.navigator.push({...})</td>
-        <td>push</td>
-    </tr>
-    </tr>
-        <td>this.props.${functionName} ({...})</td>
-        <td>this.props.request</td>
-    </tr>
-    </tr>
+    <tr>
         <td>TextInput ...</td>
-        <td>textinput</td>
+        <td>TextInput</td>
     </tr>
-    </tr>
+    <tr>
         <td>Modal ...</td>
-        <td>modal</td>
+        <td>Modal</td>
     </tr>
-    </tr>
+    <tr>
         <td>Navbar ...</td>
-        <td>navbar</td>
+        <td>Navbar</td>
     </tr>
-    </tr>
+    <tr>
         <td>Image ...</td>
-        <td>image</td>
+        <td>Image</td>
     </tr>
-    </tr>
+    <tr>
         <td>TouchableOpacity ...</td>
-        <td>touchableOpacity</td>
+        <td>TouchableOpacity</td>
     </tr>
-    </tr>
+    <tr>
         <td>View ...</td>
-        <td>view</td>
+        <td>View</td>
     </tr>
-    </tr>
+    <tr>
         <td>Text ...</td>
-        <td>text</td>
+        <td>Text</td>
+    </tr>
+    <tr>
+        <td>style={style.styleName} ...</td>
+        <td>style</td>
+    </tr>
+    <tr>
+        <td>createAction ...</td>
+        <td>createAction</td>
+    </tr>
+    <tr>
+        <td>action request ...</td>
+        <td>actionRequest</td>
+    </tr>
+    <tr>
+        <td>this.props.actionRequest ...</td>
+        <td>tpa</td>
+    </tr>
+    <tr>
+        <td>this.props.navigator.push ...</td>
+        <td>tpnp</td>
     </tr>
 </table>
 
@@ -108,25 +120,23 @@
 
 ```
 <snippet>
-  <content><![CDATA[
-
+  <content>
+<![CDATA[
 <TextInput
-    style={style.${1:formItem}}
+    style={style.${1:textInput}}
     value={this.state.${2:inputValue}}
-    placeholder={${3:placeholder}}
+    placeholder={'${3:请输入}'}
     clearButtonMode={'while-editing'}
-    keyboardType={${4:}}
+    keyboardType={${4:'default'}}
     underlineColorAndroid={'transparent'}
     onChangeText={($2) => {
         this.setState({$2})
-    }}
-/>
-
-    ]]>
+    }} />
+]]>
   </content>
-  <tabTrigger>textinput</tabTrigger>
+  <tabTrigger>TextInput</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>react-native TextInput</description>
+  <description>Remi TextInput</description>
 </snippet>
 
 ```

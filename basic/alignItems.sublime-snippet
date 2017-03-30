@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[alignItems: '${1:center}',]]></content>
-  <tabTrigger>alignitems</tabTrigger>
+  <tabTrigger>alignItems</tabTrigger>
   <scope>source.js,source.jsx,source.css</scope>
   <description>alignitems: 'center',</description>
 </snippet>

@@ -1,9 +1,10 @@
 <snippet>
-  <content><![CDATA[
-<Text style={style.$1}>{'$2'}</Text>
-$0]]>
+  <content>
+<![CDATA[
+<Text style={style.${1:text}}>$2</Text>
+]]>
   </content>
-  <tabTrigger>text</tabTrigger>
+  <tabTrigger>Text</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>react-native Text</description>
+  <description>Remi Text</description>
 </snippet>

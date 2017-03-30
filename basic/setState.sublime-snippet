@@ -6,5 +6,5 @@ this.setState({
 ]]></content>
   <tabTrigger>setState</tabTrigger>
   <scope>source.js,source.jsx,source.css</scope>
-  <description>this.setState()</description>
+  <description>Remi this.setState()</description>
 </snippet>

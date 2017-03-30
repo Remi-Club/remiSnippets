@@ -1,19 +1,18 @@
 <snippet>
   <content><![CDATA[
 <TextInput
-    style={style.${1:formItem}}
+    style={style.${1:textInput}}
     value={this.state.${2:inputValue}}
-    placeholder={${3:placeholder}}
+    placeholder={'${3:请输入}'}
     clearButtonMode={'while-editing'}
     keyboardType={${4:'default'}}
     underlineColorAndroid={'transparent'}
     onChangeText={($2) => {
         this.setState({$2})
-    }}
-/>
-    ]]>
+    }} />
+]]>
   </content>
-  <tabTrigger>textinput</tabTrigger>
+  <tabTrigger>TextInput</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>react-native TextInput</description>
+  <description>Remi TextInput</description>
 </snippet>

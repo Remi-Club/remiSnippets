@@ -1,11 +1,12 @@
 <snippet>
-  <content><![CDATA[
-<TouchableOpacity onPress={() => this.$1} style={style.${2}}>
+  <content>
+<![CDATA[
+<TouchableOpacity style={style.${1:btn}} onPress={$2}>
     $0
 </TouchableOpacity>
-    ]]>
+]]>
   </content>
-  <tabTrigger>touchableOpacity</tabTrigger>
+  <tabTrigger>TouchableOpacity</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>react-native TouchableOpacity</description>
+  <description>Remi TouchableOpacity</description>
 </snippet>

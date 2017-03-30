@@ -10,9 +10,6 @@ const style = StyleSheet.create({
         flex: 1,
         backgroundColor: '#f6f6f6',
     },
-    content: {
-        $1
-    }
 });
 
 export default style;
@@ -23,5 +20,5 @@ export default style;
   <!-- the abbreviation is hilariously `css` -->
   <!-- actually stands for create style sheet -->
   <scope>source.js,source.jsx,source.css</scope>
-  <description>Create StyleSheet</description>
+  <description>Remi react-native StyleSheet</description>
 </snippet>

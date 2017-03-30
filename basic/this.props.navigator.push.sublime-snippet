@@ -5,11 +5,10 @@ this.props.navigator.push({
     passProps: {
         $2
     }
-})
+});
 ]]>
-
   </content>
-  <tabTrigger>push</tabTrigger>
+  <tabTrigger>tpnp</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>this.props.navigator.push</description>
+  <description>Remi this.props.navigator.push</description>
 </snippet>

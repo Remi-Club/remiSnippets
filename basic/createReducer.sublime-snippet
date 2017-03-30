@@ -1,0 +1,22 @@
+<snippet>
+  <content>
+<![CDATA[
+const DEFAULT_STATE = {
+    $1
+};
+
+export default function (state, action) {
+    switch (action.type) {
+        case '${2:XX_XX}':
+            return Object.assign({}, state, action.data);
+        default:
+            return state || DEFAULT_STATE;
+    }
+};
+
+]]>
+  </content>
+  <tabTrigger>createReducer</tabTrigger>
+  <scope>source.js,source.jsx,source.css</scope>
+  <description>Remi reducer</description>
+</snippet>

@@ -1,0 +1,41 @@
+<snippet>
+  <content>
+<![CDATA[
+import Request from 'common/request';
+
+function ${1:actionName}(data) {
+    return {
+        type: 'XX_XX',
+        data
+    }
+}
+
+export default function () {
+    return {
+        $1({data, before, after, success, fail} = {}){
+            return function(dispatch) {
+                before && before();
+                Request.get({
+                    url: '$2',
+                    data,
+                    success: async (result) => {
+                        after && after();
+                        dispatch($1(result.data));
+                        success && success(result.data);
+                    },
+                    fail: async (result) => {
+                        after && after();
+                        fail && fail(result.errcode);
+                    }
+                });
+            }
+        },
+    };
+};
+
+]]>
+  </content>
+  <tabTrigger>createAction</tabTrigger>
+  <scope>source.js,source.jsx,source.css</scope>
+  <description>Remi action</description>
+</snippet>

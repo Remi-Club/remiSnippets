@@ -8,29 +8,29 @@ import {
     View
 } from 'react-native';
 import style from './style';
-import Navbar from 'buss/Navbar';
 
 class ${1:Index} extends Component {
-    goBack() {
-        this.props.navigator.pop();
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            $2
+        };
     }
     render() {
         return (
             <View style={style.box}>
-                <Navbar title={'${2:title}'} onBackButtonPress={() => this.goBack} />
-                <View style={style.content}>
-                    $0
-                </View>
+                $0
             </View>
         );
     }
 }
 
-export default ${1:Index};
+export default $1;
 
 ]]>
   </content>
   <tabTrigger>rncc</tabTrigger>
   <scope>source.js,source.jsx,source.css</scope>
-  <description>Remi Create react-native Class</description>
+  <description>Remi react-native class</description>
 </snippet>

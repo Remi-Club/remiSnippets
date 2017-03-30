@@ -3,15 +3,15 @@
 <Modal
     animationType={"fade"}
     transparent={true}
-    visible={this.state.${1:isModalVisible}}
-    onRequestClose={() => ${3:{console.log('@@@onRequestClose');}}}>
+    visible={this.state.${1:showModal}}
+    onRequestClose={() => console.log('onRequestClose')}>
     <View style={style.${2:modalBox}}>
         $0
     </View>
 </Modal>
     ]]>
   </content>
-  <tabTrigger>modal</tabTrigger>
+  <tabTrigger>Modal</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>react-native modal</description>
+  <description>Remi Modal</description>
 </snippet>
