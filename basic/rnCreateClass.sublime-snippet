@@ -18,7 +18,7 @@ class ${1:Index} extends Component {
         return (
             <View style={style.box}>
                 <Navbar title={'${2:title}'} onBackButtonPress={() => this.goBack} />
-                <View style={style.wrapper}>
+                <View style={style.content}>
                     $0
                 </View>
             </View>

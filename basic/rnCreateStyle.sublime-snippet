@@ -10,7 +10,7 @@ const style = StyleSheet.create({
         flex: 1,
         backgroundColor: '#f6f6f6',
     },
-    wrapper: {
+    content: {
         $1
     }
 });
