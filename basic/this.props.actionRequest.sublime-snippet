@@ -12,5 +12,5 @@ this.props.${1:actionRequest}({
   </content>
   <tabTrigger>tpa</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>Remi this.props.actionRequest</description>
+  <description>this.props.actionRequest Remi</description>
 </snippet>

@@ -7,8 +7,9 @@
 #### git clone https://github.com/Remi-Club/remiSnippets.git
 
 ## Snippets
+###文件模板
 <table>
-    <tr>
+	<tr>
         <th>Snippet</th>
         <th>Trigger</th>
     </tr>
@@ -19,6 +20,22 @@
     <tr>
         <td>Create StyleSheet</td>
         <td>rncs</td>
+    </tr>
+    <tr>
+        <td>创建action模板文件</td>
+        <td>createAction</td>
+    </tr>
+    <tr>
+        <td>创建reducer模板文件</td>
+        <td>createReducer</td>
+    </tr>
+</table>
+
+###basic片段
+<table>
+    <tr>
+        <th>Snippet</th>
+        <th>Trigger</th>
     </tr>
     <tr>
         <td>componentDidMount()</td>
@@ -59,6 +76,26 @@
         <td>flexDirection</td>
     </tr>
     <tr>
+        <td>style={style.styleName} ...</td>
+        <td>style</td>
+    </tr>
+    <tr>
+        <td>this.props.actionRequest ...</td>
+        <td>tpa</td>
+    </tr>
+    <tr>
+        <td>this.props.navigator.push ...</td>
+        <td>tpnp</td>
+    </tr>
+    <tr>
+        <td>在action中创建Request请求</td>
+        <td>actionRequest</td>
+    </tr>
+</table>
+
+### 组件
+<table>
+    <tr>
         <td>TextInput ...</td>
         <td>TextInput</td>
     </tr>
@@ -86,36 +123,16 @@
         <td>Text ...</td>
         <td>Text</td>
     </tr>
-    <tr>
-        <td>style={style.styleName} ...</td>
-        <td>style</td>
-    </tr>
-    <tr>
-        <td>createAction ...</td>
-        <td>createAction</td>
-    </tr>
-    <tr>
-        <td>action request ...</td>
-        <td>actionRequest</td>
-    </tr>
-    <tr>
-        <td>this.props.actionRequest ...</td>
-        <td>tpa</td>
-    </tr>
-    <tr>
-        <td>this.props.navigator.push ...</td>
-        <td>tpnp</td>
-    </tr>
 </table>
 
 
-### 编辑:
+## 编辑:
 
 - 基本函数放在basic文件夹, 组件放在components文件夹
 - 注意创建的代码段文件要以.sublime-snippet结尾
 
 
-#### 示例
+## 示例
 
 ```
 <snippet>
@@ -135,7 +152,7 @@
   </content>
   <tabTrigger>TextInput</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>Remi TextInput</description>
+  <description>rnTextInput</description>
 </snippet>
 
 ```

@@ -37,5 +37,5 @@ export default function () {
   </content>
   <tabTrigger>createAction</tabTrigger>
   <scope>source.js,source.jsx,source.css</scope>
-  <description>Remi action</description>
+  <description>创建action模板文件 Remi</description>
 </snippet>

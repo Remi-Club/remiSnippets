@@ -16,9 +16,9 @@ export default style;
 
 ]]>
   </content>
-  <tabTrigger>rncs</tabTrigger>
+  <tabTrigger>createRNStyle</tabTrigger>
   <!-- the abbreviation is hilariously `css` -->
   <!-- actually stands for create style sheet -->
   <scope>source.js,source.jsx,source.css</scope>
-  <description>Remi react-native StyleSheet</description>
+  <description>创建RNStyleSheet Remi</description>
 </snippet>

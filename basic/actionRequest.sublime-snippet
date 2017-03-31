@@ -23,5 +23,5 @@ ${1:actionName}({data, before, after, success, fail} = {}){
   </content>
   <tabTrigger>actionRequest</tabTrigger>
   <scope>source.js,source.jsx,source.css</scope>
-  <description>Remi actionRequest</description>
+  <description>在action中创建Request请求 Remi</description>
 </snippet>

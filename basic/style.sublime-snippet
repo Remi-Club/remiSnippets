@@ -6,5 +6,5 @@ style={style.${1:styleName}}
   </content>
   <tabTrigger>style</tabTrigger>
   <scope>source.js,source.jsx,source.css</scope>
-  <description>Remi style={style.styleName}</description>
+  <description>style={style.styleName} Remi</description>
 </snippet>

@@ -10,5 +10,5 @@ this.props.navigator.push({
   </content>
   <tabTrigger>tpnp</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>Remi this.props.navigator.push</description>
+  <description>this.props.navigator.push Remi</description>
 </snippet>

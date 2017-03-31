@@ -30,7 +30,7 @@ export default $1;
 
 ]]>
   </content>
-  <tabTrigger>rncc</tabTrigger>
+  <tabTrigger>createRNClass</tabTrigger>
   <scope>source.js,source.jsx,source.css</scope>
-  <description>Remi react-native class</description>
+  <description>创建RNClass Remi</description>
 </snippet>

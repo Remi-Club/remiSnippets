@@ -8,5 +8,5 @@
   </content>
   <tabTrigger>TouchableOpacity</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>Remi TouchableOpacity</description>
+  <description>rnTouchableOpacity Remi</description>
 </snippet>
