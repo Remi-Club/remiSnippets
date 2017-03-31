@@ -14,12 +14,12 @@
         <th>Trigger</th>
     </tr>
     <tr>
-        <td>Create react-native Class</td>
-        <td>rncc</td>
+        <td>Create RN Class</td>
+        <td>createRNClass</td>
     </tr>
     <tr>
-        <td>Create StyleSheet</td>
-        <td>rncs</td>
+        <td>Create RN StyleSheet</td>
+        <td>createRNStyle</td>
     </tr>
     <tr>
         <td>创建action模板文件</td>
