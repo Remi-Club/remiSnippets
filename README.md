@@ -7,7 +7,6 @@
 #### git clone https://github.com/Remi-Club/remiSnippets.git
 
 ## Snippets
-
 <table>
     <tr>
         <th>Snippet</th>
