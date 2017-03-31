@@ -7,7 +7,7 @@
 #### git clone https://github.com/Remi-Club/remiSnippets.git
 
 ## Snippets
-###文件模板
+### 文件模板
 <table>
 	<tr>
         <th>Snippet</th>
@@ -31,7 +31,7 @@
     </tr>
 </table>
 
-###basic片段
+### basic片段
 <table>
     <tr>
         <th>Snippet</th>
