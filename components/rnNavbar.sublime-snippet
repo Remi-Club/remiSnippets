@@ -1,7 +1,7 @@
 <snippet>
   <content>
 <![CDATA[
-<Navbar title={'${1:title}'} onBackButtonPress={this.props.navigator.pop} />
+<Navbar title={'${1:title}'} onBackButtonPress={() => this.props.navigator.pop()} />
 ]]>
   </content>
   <tabTrigger>Navbar</tabTrigger>

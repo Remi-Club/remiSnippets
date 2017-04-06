@@ -4,7 +4,7 @@ this.setState({
 	${1:key}: ${2:'value'},
 });
 ]]></content>
-  <tabTrigger>setState</tabTrigger>
+  <tabTrigger>this.setState</tabTrigger>
   <scope>source.js,source.jsx,source.css</scope>
   <description>this.setState()</description>
 </snippet>
