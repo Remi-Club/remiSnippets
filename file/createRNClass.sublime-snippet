@@ -18,11 +18,9 @@ class ${1:Index} extends Component {
         };
     }
     render() {
-        return (
-            <View style={style.box}>
-                $0
-            </View>
-        );
+        return <View style={style.box}>
+            $0
+        </View>
     }
 }
 
