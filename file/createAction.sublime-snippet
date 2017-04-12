@@ -10,27 +10,25 @@ function ${1:actionName}(data) {
     }
 }
 
-export default function () {
-    return {
-        $1({data, before, after, success, fail} = {}){
-            return function(dispatch) {
-                before && before();
-                Request.get({
-                    url: '$2',
-                    data,
-                    success: async (result) => {
-                        after && after();
-                        dispatch($1(result.data));
-                        success && success(result.data);
-                    },
-                    fail: async (result) => {
-                        after && after();
-                        fail && fail(result.errcode);
-                    }
-                });
-            }
-        },
-    };
+export default {
+    $1({data, before, after, success, fail} = {}){
+        return function(dispatch) {
+            before && before();
+            Request.get({
+                url: '$2',
+                data,
+                success: async ({data}) => {
+                    after && after();
+                    dispatch($1(data));
+                    success && success(data);
+                },
+                fail: async (errcode) => {
+                    after && after();
+                    fail && fail(errcode);
+                }
+            });
+        }
+    },
 };
 
 ]]>

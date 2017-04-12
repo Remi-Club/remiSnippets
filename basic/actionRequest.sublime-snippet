@@ -7,14 +7,14 @@ ${1:actionName}({data, before, after, success, fail} = {}){
         Request.get({
             url: '$2',
             data,
-            success: async (result) => {
+            success: async ({data}) => {
                 after && after();
-                dispatch($1(result.data));
-                success && success(result.data);
+                dispatch($1(data));
+                success && success(data);
             },
-            fail: async (result) => {
+            fail: async ({errcode}) => {
                 after && after();
-                fail && fail(result.errcode);
+                fail && fail(errcode);
             }
         });
     }
