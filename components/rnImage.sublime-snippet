@@ -1,7 +1,7 @@
 <snippet>
   <content>
 <![CDATA[
-<Image source={require('img/${1:imageName}.png')} />
+<Image source={require('img/${1:logo}.png')} />
 ]]>
   </content>
   <tabTrigger>Image</tabTrigger>
