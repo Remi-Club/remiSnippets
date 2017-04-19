@@ -2,7 +2,7 @@
   <content><![CDATA[
 <TextInput
     style={style.${1:textInput}}
-    value={this.state.${2:inputValue}}
+    value={this.state.${2:value}}
     placeholder={'${3:请输入}'}
     clearButtonMode={'while-editing'}
     keyboardType={${4:'default'}}
