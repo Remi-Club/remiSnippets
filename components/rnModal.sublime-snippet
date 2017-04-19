@@ -3,7 +3,7 @@
 <Modal
     animationType={"fade"}
     transparent={true}
-    visible={this.state.${1:showModal}}
+    visible={this.state.${1:isShowModal}}
     onRequestClose={() => console.log('onRequestClose')}>
     <View style={style.${2:modalBox}}>
         $0
