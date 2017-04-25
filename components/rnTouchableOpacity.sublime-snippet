@@ -1,7 +1,7 @@
 <snippet>
   <content>
 <![CDATA[
-<TouchableOpacity style={style.${1:btn}} onPress={() => {$2}}>
+<TouchableOpacity onPress={() => {$1}}>
     $0
 </TouchableOpacity>
 ]]>
