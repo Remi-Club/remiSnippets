@@ -3,6 +3,8 @@
 <TextInput
     style={style.${1:textInput}}
     value={this.state.${2:value}}
+    returnKeyType={'done'}
+    returnKeyLabel={'done'}
     placeholder={'${3:请输入}'}
     clearButtonMode={'while-editing'}
     keyboardType={${4:'default'}}
