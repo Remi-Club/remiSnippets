@@ -2,12 +2,19 @@
   <content>
 <![CDATA[
 import React, {
-    Component
+    PureComponent,
+    PropTypes,
 } from 'react';
 import {
-    View
+    View,
+    Modal,
+    TextInput,
+    TouchableOpacity,
+    Image,
 } from 'react-native';
 import style from './style';
+import Navbar from 'buss/Navbar';
+import Text from 'buss/Text';
 
 class ${1:Index} extends Component {
     constructor(props) {
