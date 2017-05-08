@@ -17,12 +17,21 @@ import Navbar from 'buss/Navbar';
 import Text from 'buss/Text';
 
 class ${1:Index} extends PureComponent {
+    static propTypes = {
+        $2
+    }
     constructor(props) {
         super(props);
 
         this.state = {
-            $2
+            $3
         };
+    }
+    componentDidMount() {
+        this._isMounted = true;
+    }
+    componentWillUnmount() {
+        this._isMounted = false;
     }
     render() {
         return <View style={style.box}>
