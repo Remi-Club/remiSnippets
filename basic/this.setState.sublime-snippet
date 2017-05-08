@@ -1,8 +1,6 @@
 <snippet>
   <content><![CDATA[
-this.setState({
-	$1
-});
+this.setState({$1});
 ]]></content>
   <tabTrigger>ts</tabTrigger>
   <scope>source.js,source.jsx,source.css</scope>
