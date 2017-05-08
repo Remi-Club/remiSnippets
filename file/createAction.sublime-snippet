@@ -2,13 +2,8 @@
   <content>
 <![CDATA[
 import Request from 'common/request';
-
-function ${1:actionName}(data) {
-    return {
-        type: 'XX_XX',
-        data
-    }
-}
+import constant from 'common/constant';
+const {MOCK_ROOT} = constant;
 
 export default {
     $1({data, before, after, success, fail} = {}){
@@ -19,7 +14,7 @@ export default {
                 data,
                 success: async ({data}) => {
                     after && after();
-                    dispatch($1(data));
+                    dispatch({type: 'XXX', data});
                     success && success(data);
                 },
                 fail: async (errcode) => {
