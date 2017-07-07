@@ -5,16 +5,8 @@ import React, {
     PureComponent,
     PropTypes,
 } from 'react';
-import {
-    View,
-    Modal,
-    TextInput,
-    TouchableOpacity,
-    Image,
-} from 'react-native';
-import style from './style';
-import Navbar from 'buss/Navbar';
-import Text from 'buss/Text';
+import style from './index.css';
+import icon from 'styles/icon';
 
 class ${1:Index} extends PureComponent {
     static propTypes = {
@@ -34,9 +26,9 @@ class ${1:Index} extends PureComponent {
         this._isMounted = false;
     }
     render() {
-        return <View style={style.box}>
+        return <div className={style.box}>
             $0
-        </View>
+        </div>
     }
 }
 
@@ -44,7 +36,7 @@ export default $1;
 
 ]]>
   </content>
-  <tabTrigger>createRNClass</tabTrigger>
+  <tabTrigger>createRClass</tabTrigger>
   <scope>source.js,source.jsx,source.css</scope>
-  <description>创建RNClass Remi</description>
+  <description>创建RClass Remi</description>
 </snippet>

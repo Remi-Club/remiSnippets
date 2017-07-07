@@ -1,0 +1,31 @@
+  <snippet>
+  <content>
+<![CDATA[
+const DEFAULT_STATE = [];
+DEFAULT_STATE.pageNo = 0; //当前页号
+
+export default function (state, action) {
+    let newState = [];
+    switch (action.type) {
+        case '$1_LIST_SET':
+            newState.push(...action.data);
+            newState.pageNo = 1;
+            return newState;
+        case '$1_LIST_PUSH':
+            newState.push(...state);
+            newState.push(...action.data);
+            newState.pageNo = state.pageNo + 1;
+            return newState;
+        case '$1_LIST_CLEAR':
+            return DEFAULT_STATE;
+        default:
+            return state || DEFAULT_STATE;
+    }
+};
+
+]]>
+  </content>
+  <tabTrigger>createReducer4List</tabTrigger>
+  <scope>source.js,source.jsx,source.css</scope>
+  <description>创建reducer模板文件 Remi</description>
+</snippet>

@@ -10,7 +10,7 @@ export default {
         return function(dispatch) {
             before && before();
             Request.get({
-                url: '$2',
+                url: MOCK_ROOT + '$2',
                 data,
                 success: async ({data}) => {
                     after && after();

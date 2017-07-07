@@ -1,14 +1,18 @@
-<snippet>
+  <snippet>
   <content>
 <![CDATA[
 const DEFAULT_STATE = {
-    $1
+
 };
 
 export default function (state, action) {
     switch (action.type) {
-        case '${2:XX_XX}':
-            return Object.assign({}, state, action.data);
+        case '$1_SET':
+            return {...action.data};
+        case '$1_UPDATE':
+            return {...state, ...action.data};
+        case '$1_CLEAR':
+            return DEFAULT_STATE;
         default:
             return state || DEFAULT_STATE;
     }
