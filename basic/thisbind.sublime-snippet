@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+<![CDATA[
+this.${1:method} = this.$1.bind(this);
+]]>
+  </content>
+  <tabTrigger>tbind</tabTrigger>
+  <scope>source.js,source.jsx,source.css</scope>
+  <description>this.method = this.method.bind(this) Remi</description>
+</snippet>

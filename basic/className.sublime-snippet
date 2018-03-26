@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+<![CDATA[
+className={style.${1:className}}
+]]>
+  </content>
+  <tabTrigger>className</tabTrigger>
+  <scope>source.js,source.jsx,source.css</scope>
+  <description>className={style.styleName} Remi</description>
+</snippet>
