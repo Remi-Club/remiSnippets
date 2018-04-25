@@ -2,15 +2,13 @@
   <content>
 <![CDATA[
 import Request from 'common/request';
-import constant from 'common/constant';
-const {MOCK_ROOT} = constant;
 
 export default {
     $1({data, before, after, success, fail} = {}){
         return function(dispatch) {
             before && before();
             Request.get({
-                url: MOCK_ROOT + '$2',
+                url: '$2',
                 data,
                 success: async ({data}) => {
                     after && after();
