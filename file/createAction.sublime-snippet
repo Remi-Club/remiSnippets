@@ -15,7 +15,7 @@ export default {
                     dispatch({type: 'XXX', data});
                     success && success(data);
                 },
-                fail: async (errcode) => {
+                fail: async ({errcode}) => {
                     after && after();
                     fail && fail(errcode);
                 }
